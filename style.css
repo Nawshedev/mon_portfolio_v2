@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 200px;
+  align-items: center;
+}
+
+.right_header {
+  display: flex;
+  gap: 35px;
+}
+
+.nav_social,
+.nav_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
