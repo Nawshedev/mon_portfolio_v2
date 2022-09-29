@@ -1,0 +1,282 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* TITLES */
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em;
+  padding-left: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 200px;
+  align-items: center;
+  position: absolute;
+  color: white;
+  width: 70vw;
+}
+
+main {
+  overflow: hidden;
+}
+
+.right_header {
+  display: flex;
+  gap: 35px;
+}
+
+.nav_social,
+.nav_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+
+/* EOF HEADER */
+
+/* WELCOME SECTION */
+
+.welcome_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+
+.welcome_section a {
+  position: absolute;
+  bottom: -100px;
+  cursor: pointer;
+  text-transform: lowercase;
+}
+
+.welcome_section a {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  position: relative;
+  padding: 10px;
+}
+.welcome_section a span {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.welcome_section a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.welcome_section a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.welcome_section a:hover::before {
+  top: 100px;
+
+  transform: rotate(-45deg) translateY(50%) translateX(32px);
+  background-color: rgba(255, 255, 255, 0);
+}
+.welcome_section a:hover::after {
+  top: 100px;
+
+  transform: rotate(45deg) translateY(50%) translateX(-32px);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.welcome_section a:hover {
+  transform: translateY(-40px);
+}
+
+/* EOF welcome section */
+
+/* About section */
+
+.about_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_section img {
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.about_section article {
+  width: 50%;
+  padding-left: 50px;
+}
+
+/* EOF about section */
+
+/* WORK section */
+
+.work_section {
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+}
+.tindog {
+  background: url(./assets/images/tindog2.png);
+}
+
+.jadoo {
+  background: url(./assets/images/jadoo.png);
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.911);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.work_information {
+  position: absolute;
+  bottom: 30vh;
+  left: 20vw;
+  font-size: larger;
+}
+
+.layer ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.arrow_left,
+.arrow_right {
+  height: 70px;
+  width: 70px;
+  background-color: transparent;
+  border: none;
+  background-repeat: no-repeat;
+  position: absolute;
+  cursor: pointer;
+}
+
+.arrow_right {
+  background-image: url(./assets/images/right-chevron.png);
+  right: 50px;
+}
+
+.arrow_left {
+  background-image: url(./assets/images/left-chevron.png);
+  left: 50px;
+}
+
+.swiper-button-next {
+  color: white;
+  right: 50px;
+}
+
+.swiper-button-prev {
+  left: 50px;
+  color: white;
+}
+
+/* EOF Work Section */
+
+.contact_section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.contact_section article {
+  width: 50%;
+  padding: 0 250px;
+}
+
+.contact_section form {
+  width: 50%;
+  padding: 0 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#bip {
+  margin: 20px;
+  text-align: center;
+}
+
+.contact_section form input {
+  padding: 10px;
+}
+
+/* Slide section */
+
+.swiper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.swiper-pagination-bullet {
+  background-color: grey;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+footer .nav_social {
+  display: flex;
+  justify-content: center;
+}

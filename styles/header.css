@@ -3,6 +3,9 @@ header {
   justify-content: space-between;
   padding: 15px 200px;
   align-items: center;
+  position: absolute;
+  color: white;
+  width: 70vw;
 }
 
 .right_header {
@@ -17,5 +20,4 @@ header {
   justify-content: space-between;
   gap: 20px;
   list-style: none;
-  font-family: "Montserrat", sans-serif;
 }

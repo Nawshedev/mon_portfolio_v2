@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Libraries -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +28,7 @@
     ></script>
 
     <!-- css link -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
 
     <title>Nawel Grine</title>
   </head>
@@ -49,14 +57,153 @@
     <main>
         <!-- section welcome -->
         <section class="welcome_section">
-            <h1>Nawel GRINE</h1>
+            <h1>NAWEL GRINE</h1>
             <h2>Développeuse web et web mobile</h2>
-            <h3>Lyon</h3>
-            <a>Découvrir mon travail</a>
+            <a>voir mon travail</a>
         </section>
+
+      <!-- EOF section welcome -->
+
+      <!-- About section -->
+      <section class="about_section">
+        <img src="https://images.pexels.com/photos/5052851/pexels-photo-5052851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <article>
+          <h3>about</h3>
+          <h2>Développeuse <span>HTML</span></h2>
+          <p>Développeuse en formation, je
+            suis à la recherche d'un stage du
+            12/01/2023 au 27/03/2023
+            </p>
+        </article>
+
+      </section>
+
+      <!-- EOF About Section -->
+
+      <!-- BOF Work Section -->
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><section class="work_section tindog">
+            <div class="layer">
+      
+            
+      
+            <div class="work_information ">
+      
+            <h2>Tindog</h2>
+            <p>Site vitrine pour une application mobile de rencontre... entre chiens 🐶<br>Réalisé dans le cadre de la formation BOOTSTRAP - The App Brewery
+            </p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+            </ul>
+            
+      
+          </div>
+          
+            
+          </div>
+          </section></div>
+          <div class="swiper-slide"><section class="work_section jadoo">
+            <div class="layer">
+      
+            
+      
+            <div class="work_information ">
+      
+            <h2>Jadoo</h2>
+            <p>Site vitrine pour restaurant de nouilles 🍜<br>Intégration maquette
+            </p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Figma</li>
+            </ul>
+            
+      
+          </div>
+          
+            
+          </div>
+          </section></div>
+      
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+      
+
+
+      <!-- EOF work section -->
+
+      <!-- BOF Contact Section -->
+      
+      <section class="contact_section">
+
+        <article>
+          <h3>contact</h3>
+          <h2>On travaille ensemble ?</h2>
+          <p>Vous êtes bien sur la messagerie de Nawel Grine. Je ne peux pas vous répondre pour le moment. Merci de laisser un message après le bip sonore et je vous répondrai dès que possible.</p>
+          <a href="">nawelgrine@gmail.com</a>
+        </article>
+
+        <form action="" method="get">
+          <label for="name">Nom</label>
+          <input type="text" name="name" id="contact_name">
+
+
+          <label for="email">Email</label>
+          <input type="email" name="" id="" required>
+
+          <span id="bip"> bip sonore</span>
+
+          <label for="message">Message</label>
+          <textarea name="message" id="contact_message" cols="30" rows="10"></textarea>
+
+          <input type="submit" value="Envoyer" class="send_btn">
+
+        </form>
+
+
+
+      </section>
+
+
+      <!-- sliding section  -->
+<!-- Slider main container -->
+
 
     </main>
     <!-- EOF MAIN -->
+
+    <!-- Footer -->
+
+    <footer>
+      <ul>
+        <li>about</li>
+        <li>work</li>
+        <li>contact</li>
+      </ul>
+
+      <ul class="nav_social">
+        <li><i class="fa-brands fa-github"></i></li>
+        <li>
+          <i><i class="fa-brands fa-codepen"></i></i>
+        </li>
+      </ul>
+    </footer>
 
     <script src="script.js"></script>
   </body>
