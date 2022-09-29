@@ -2,15 +2,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.about_section img {
-  width: 50vw;
   height: 100vh;
-  object-fit: cover;
+  color: white;
+  margin: 0 400px;
 }
 
-.about_section article {
-  width: 50%;
-  padding-left: 50px;
+.about_section article h1 {
+  position: absolute;
+  top: 95vh;
+  right: 300px;
+  font-size: 4rem;
+}
+
+h6 {
+  transform: rotateZ(-90deg);
+  position: relative;
+  left: -50px;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.about_section p span {
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(
+    rgba(238, 84, 188, 1),
+    rgba(26, 201, 205, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+article .cta {
+  top: 200px;
+  position: relative;
 }

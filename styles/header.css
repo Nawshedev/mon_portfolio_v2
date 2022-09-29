@@ -1,11 +1,10 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 15px 200px;
   align-items: center;
-  position: absolute;
+  margin: 0 400px;
   color: white;
-  width: 70vw;
+  height: 10vh;
 }
 
 .right_header {
@@ -20,4 +19,14 @@ header {
   justify-content: space-between;
   gap: 20px;
   list-style: none;
+}
+
+.flip_e {
+  transform: rotateY(180deg);
+  display: inline-block;
+}
+
+h2 {
+  font-size: 2.3em;
+  padding-left: 0;
 }

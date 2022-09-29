@@ -7,17 +7,17 @@
 
     <!-- Libraries -->
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=Pacifico&family=Poppins:wght@100;300;400;500;600;700&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=Pacifico&family=Poppins:wght@100;300;400;500;600;700&family=Roboto&family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
 
@@ -37,7 +37,7 @@
   <body>
     <!-- HEADER -->
     <header>
-      <img class="left_header" src="./assets/images/NAWEL-removebg-preview.png" width="200px"></img>
+      <h2 class="left_header">naw<span class="flip_e">e</span>l</h2>
       <nav class="right_header">
         <ul class="nav_menu">
           <li>about</li>
@@ -47,7 +47,7 @@
         <ul class="nav_social">
           <li><i class="fa-brands fa-github"></i></li>
           <li>
-            <i><i class="fa-brands fa-codepen"></i></i>
+            <i class="fa-brands fa-codepen"></i>
           </li>
         </ul>
       </nav>
@@ -55,27 +55,40 @@
     <!-- EOF HEADER -->
     <!-- MAIN -->
     <main>
-        <!-- section welcome -->
-        <section class="welcome_section">
-            <h1>NAWEL GRINE</h1>
-            <h2>Développeuse web et web mobile</h2>
-            <a>voir mon travail</a>
-        </section>
+      <!-- section welcome -->
+      <section class="welcome_section">
+        <h1>NAWEL GRINE</h1>
+        <h3>
+          <span class="gradient">Développeuse</span> web et w<span
+            class="flip_e"
+            >e</span
+          >b mobile
+        </h3>
+        <a class="cta">voir mon travail</a>
+      </section>
 
       <!-- EOF section welcome -->
 
       <!-- About section -->
       <section class="about_section">
-        <img src="https://images.pexels.com/photos/5052851/pexels-photo-5052851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-        <article>
-          <h3>about</h3>
-          <h2>Développeuse <span>HTML</span></h2>
-          <p>Développeuse en formation, je
-            suis à la recherche d'un stage du
-            12/01/2023 au 27/03/2023
-            </p>
-        </article>
+        <h6>about</h6>
 
+        <article>
+          <h1>
+            Développ<span class="flip_e">e</span>use
+            <span class="scrolling_text">HTML</span>
+          </h1>
+          <p>
+            Salut, 👋🏻 <br />
+            Je m’appelle <span>Nawel</span> et je suis développeuse web
+            fullstack en <span>formation</span>. Dans le cadre de ma formation
+            qualifiante intitulée “développeur web et web mobile”(niveau 3), je
+            dois effectuer un <span>stage</span> , non rémunéré, en entreprise.
+            D’une durée de 245 heures, il aura lieu du
+            <span>16/01/2023 au 03/03/2023</span>.
+          </p>
+          <a class="cta">télécharger mon cv</a>
+        </article>
       </section>
 
       <!-- EOF About Section -->
@@ -86,105 +99,181 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><section class="work_section tindog">
-            <div class="layer">
-      
-            
-      
-            <div class="work_information ">
-      
-            <h2>Tindog</h2>
-            <p>Site vitrine pour une application mobile de rencontre... entre chiens 🐶<br>Réalisé dans le cadre de la formation BOOTSTRAP - The App Brewery
-            </p>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-            </ul>
-            
-      
+          <div class="swiper-slide">
+            <section class="work-section">
+              <h6>work</h6>
+              <div class="middle">
+                <div class="container_title">
+                  <h4>harmonie déco</h4>
+                  <h5>wordpress</h5>
+                </div>
+                <div class="main_container">
+                  <figure>
+                    <img src="./assets/images/HD_mockup.png" alt="" />
+                    <figcaption>
+                      création du site vitrine et du logo pour une décoratrice
+                      d'évènements
+                    </figcaption>
+                  </figure>
+                </div>
+                <ul>
+                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li><i class="fa-brands fa-github"></i></li>
+                  <li><i class="fa-brands fa-codepen"></i></li>
+                </ul>
+              </div>
+            </section>
           </div>
-          
-            
+          <div class="swiper-slide">
+            <section class="work-section">
+              <h6>work</h6>
+              <div class="middle">
+                <div class="container_title">
+                  <h4>Rose Mousseline</h4>
+                  <h5>Woocommerce</h5>
+                </div>
+                <div class="main_container">
+                  <figure>
+                    <img src="./assets/images/rm_mockup.png" alt="" />
+                    <figcaption>création e-commerce</figcaption>
+                  </figure>
+                </div>
+                <ul>
+                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li><i class="fa-brands fa-github"></i></li>
+                  <li><i class="fa-brands fa-codepen"></i></li>
+                </ul>
+              </div>
+            </section>
           </div>
-          </section></div>
-          <div class="swiper-slide"><section class="work_section jadoo">
-            <div class="layer">
-      
-            
-      
-            <div class="work_information ">
-      
-            <h2>Jadoo</h2>
-            <p>Site vitrine pour restaurant de nouilles 🍜<br>Intégration maquette
-            </p>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Figma</li>
-            </ul>
-            
-      
+          <div class="swiper-slide">
+            <section class="work-section">
+              <h6>work</h6>
+              <div class="middle">
+                <div class="container_title">
+                  <h4>yummy nouilles</h4>
+                  <h5>html/css/figma</h5>
+                </div>
+                <div class="main_container">
+                  <figure>
+                    <img src="./assets/images/jadoo_mockup.png" alt="" />
+                    <figcaption>
+                      site vitrine pour un restaurant japonais
+                    </figcaption>
+                  </figure>
+                </div>
+                <ul>
+                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li><i class="fa-brands fa-github"></i></li>
+                  <li><i class="fa-brands fa-codepen"></i></li>
+                </ul>
+              </div>
+            </section>
           </div>
-          
-            
-          </div>
-          </section></div>
-      
           ...
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
-      
+
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-      
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
       </div>
-      
 
+      <!-- <div class="swiper"> -->
+      <!-- Additional required wrapper -->
+      <!-- <div class="swiper-wrapper"> -->
+      <!-- Slides -->
+      <!-- <div class="swiper-slide">
+            <section class="work_section tindog">
+              <div class="layer">
+                <div class="work_information">
+                  <h2>Tindog</h2>
+                  <p>
+                    Site vitrine pour une application mobile de rencontre...
+                    entre chiens 🐶<br />Réalisé dans le cadre de la formation
+                    BOOTSTRAP - The App Brewery
+                  </p>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section class="work_section jadoo">
+              <div class="layer">
+                <div class="work_information">
+                  <h2>Jadoo</h2>
+                  <p>
+                    Site vitrine pour restaurant de nouilles 🍜<br />Intégration
+                    maquette
+                  </p>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Figma</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          ...
+        </div> -->
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div>
+      </div> -->
 
       <!-- EOF work section -->
 
       <!-- BOF Contact Section -->
-      
-      <section class="contact_section">
 
+      <section class="contact_section">
         <article>
           <h3>contact</h3>
           <h2>On travaille ensemble ?</h2>
-          <p>Vous êtes bien sur la messagerie de Nawel Grine. Je ne peux pas vous répondre pour le moment. Merci de laisser un message après le bip sonore et je vous répondrai dès que possible.</p>
+          <p>
+            Vous êtes bien sur la messagerie de Nawel Grine. Je ne peux pas vous
+            répondre pour le moment. Merci de laisser un message après le bip
+            sonore et je vous répondrai dès que possible.
+          </p>
           <a href="">nawelgrine@gmail.com</a>
         </article>
 
         <form action="" method="get">
           <label for="name">Nom</label>
-          <input type="text" name="name" id="contact_name">
-
+          <input type="text" name="name" id="contact_name" />
 
           <label for="email">Email</label>
-          <input type="email" name="" id="" required>
+          <input type="email" name="" id="" required />
 
           <span id="bip"> bip sonore</span>
 
           <label for="message">Message</label>
-          <textarea name="message" id="contact_message" cols="30" rows="10"></textarea>
+          <textarea
+            name="message"
+            id="contact_message"
+            cols="30"
+            rows="10"
+          ></textarea>
 
-          <input type="submit" value="Envoyer" class="send_btn">
-
+          <input type="submit" value="Envoyer" class="send_btn" />
         </form>
-
-
-
       </section>
 
-
       <!-- sliding section  -->
-<!-- Slider main container -->
-
-
+      <!-- Slider main container -->
     </main>
     <!-- EOF MAIN -->
 

@@ -1,18 +1,10 @@
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0;
   padding: 0;
+  background-color: #10101a;
 }
 
 /* TITLES */
-h1 {
-  font-size: 6em;
-}
-
-h2 {
-  font-size: 3em;
-  padding-left: 0;
-}
 
 main {
   overflow: hidden;

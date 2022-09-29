@@ -1,5 +1,5 @@
 /* Slide section */
-
+/* 
 .swiper {
   width: 100vw;
   height: 100vh;
@@ -15,7 +15,7 @@
 }
 
 /* description */
-
+/* 
 .work_section {
   height: 100vh;
   color: white;
@@ -54,6 +54,53 @@
   margin-top: 50px;
 }
 
+*/
+
+.work-section {
+  height: 100vh;
+  color: white;
+  margin: 0 400px;
+  position: relative;
+}
+
+.container_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.main_container {
+  border: 0.2px solid rgba(211, 211, 211, 0.363);
+  border-radius: 50px;
+  background: rgb(238, 84, 188);
+  background: linear-gradient(
+    17deg,
+    rgba(238, 84, 188, 0.16010154061624648) 0%,
+    rgba(26, 201, 205, 0.14329481792717091) 96%
+  );
+}
+
+.main_container figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: end;
+  padding: 0 50px;
+  color: white;
+}
+
+.work-section h6 {
+  position: absolute;
+  top: 310px;
+}
+
 .swiper-button-next {
   color: white;
   right: 50px;
@@ -62,4 +109,19 @@
 .swiper-button-prev {
   left: 50px;
   color: white;
+}
+
+.swiper-pagination-bullet {
+  background-color: grey;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+h5 {
+  text-transform: capitalize;
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+  font-weight: 500;
 }
