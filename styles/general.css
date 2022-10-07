@@ -9,3 +9,58 @@ body {
 main {
   overflow: hidden;
 }
+
+.shadow {
+  /* position: relative; */
+  width: 50px;
+  height: 50px;
+  top: 300px;
+  left: 600px;
+}
+
+.shadow::before {
+  content: "";
+  position: absolute;
+  top: 220px;
+  left: 28%;
+  width: 45%;
+  height: 50%;
+  background-color: rgba(26, 202, 205, 0.0852);
+  box-shadow: 0 0 0 rgba(245, 90, 196, 0.0832);
+  border-radius: 30%;
+  animation: animate_shadow 5s linear infinite;
+}
+
+.shadow::after {
+  content: "";
+  position: absolute;
+  bottom: 350px;
+  left: 28%;
+  width: 45%;
+  height: 50%;
+  background-color: rgba(245, 90, 196, 0.082);
+  box-shadow: 10px 0 0 rgba(26, 202, 205, 0.89);
+  border-radius: 30%;
+  animation: animate_shadow 5s linear infinite;
+}
+
+@keyframes animate_bg {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes animate_shadow {
+  0% {
+    filter: blur(50px) hue-rotate(0deg);
+  }
+  100% {
+    filter: blur(50px) hue-rotate(360deg);
+  }
+}

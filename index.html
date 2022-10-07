@@ -76,8 +76,8 @@
         <article>
           <h1>
             Développ<span class="flip_e">e</span>use
-            <span class="scrolling_text">HTML</span>
-          </h1>
+            
+          </h1><h1 id="scrolling_text" ></h1>
           <p>
             Salut, 👋🏻 <br />
             Je m’appelle <span>Nawel</span> et je suis développeuse web
@@ -96,6 +96,7 @@
       <!-- BOF Work Section -->
 
       <div class="swiper">
+        <span class="shadow"></span>
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
@@ -104,23 +105,27 @@
               <h6>work</h6>
               <div class="middle">
                 <div class="container_title">
+                  <div class="website_info">
                   <h4>harmonie déco</h4>
-                  <h5>wordpress</h5>
+                  <figcaption>
+                    création du site vitrine et du logo pour une décoratrice
+                    d'évènements
+                  </figcaption>
+                  
                 </div>
                 <div class="main_container">
                   <figure>
                     <img src="./assets/images/HD_mockup.png" alt="" />
-                    <figcaption>
-                      création du site vitrine et du logo pour une décoratrice
-                      d'évènements
-                    </figcaption>
                   </figure>
                 </div>
-                <ul>
-                  <li><i class="fa-solid fa-globe"></i></li>
-                  <li><i class="fa-brands fa-github"></i></li>
-                  <li><i class="fa-brands fa-codepen"></i></li>
-                </ul>
+                <div class="below">
+                  <h5>wordpress</h5>
+                  <ul>
+                    <li><i class="fa-solid fa-globe"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i class="fa-brands fa-codepen"></i></li>
+                  </ul>
+                </div>
               </div>
             </section>
           </div>
@@ -180,75 +185,16 @@
         <div class="swiper-button-next"></div>
       </div>
 
-      <!-- <div class="swiper"> -->
-      <!-- Additional required wrapper -->
-      <!-- <div class="swiper-wrapper"> -->
-      <!-- Slides -->
-      <!-- <div class="swiper-slide">
-            <section class="work_section tindog">
-              <div class="layer">
-                <div class="work_information">
-                  <h2>Tindog</h2>
-                  <p>
-                    Site vitrine pour une application mobile de rencontre...
-                    entre chiens 🐶<br />Réalisé dans le cadre de la formation
-                    BOOTSTRAP - The App Brewery
-                  </p>
-                  <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div class="swiper-slide">
-            <section class="work_section jadoo">
-              <div class="layer">
-                <div class="work_information">
-                  <h2>Jadoo</h2>
-                  <p>
-                    Site vitrine pour restaurant de nouilles 🍜<br />Intégration
-                    maquette
-                  </p>
-                  <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Figma</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-          </div>
-
-          ...
-        </div> -->
-      <!-- If we need pagination -->
-      <!-- <div class="swiper-pagination"></div> -->
-
-      <!-- If we need navigation buttons -->
-      <!-- <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div> -->
-
-      <!-- If we need scrollbar -->
-      <!-- <div class="swiper-scrollbar"></div>
-      </div> -->
-
       <!-- EOF work section -->
 
       <!-- BOF Contact Section -->
 
       <section class="contact_section">
         <article>
-          <h3>contact</h3>
-          <h2>On travaille ensemble ?</h2>
-          <p>
-            Vous êtes bien sur la messagerie de Nawel Grine. Je ne peux pas vous
-            répondre pour le moment. Merci de laisser un message après le bip
-            sonore et je vous répondrai dès que possible.
-          </p>
-          <a href="">nawelgrine@gmail.com</a>
+          <h4>
+            ça vous a plu?<br />
+            restons en contact 🤝🏻
+          </h4>
         </article>
 
         <form action="" method="get">
@@ -257,8 +203,6 @@
 
           <label for="email">Email</label>
           <input type="email" name="" id="" required />
-
-          <span id="bip"> bip sonore</span>
 
           <label for="message">Message</label>
           <textarea
@@ -293,7 +237,11 @@
         </li>
       </ul>
     </footer>
-
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="typer.min.js"></script>
     <script src="script.js"></script>
+ 
+
+
   </body>
 </html>

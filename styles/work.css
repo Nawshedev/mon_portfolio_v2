@@ -1,61 +1,3 @@
-/* Slide section */
-/* 
-.swiper {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.swiper-pagination-bullet {
-  background-color: grey;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: white;
-}
-
-/* description */
-/* 
-.work_section {
-  height: 100vh;
-  color: white;
-}
-.tindog {
-  background: url(/assets/images/tindog2.png);
-}
-
-.jadoo {
-  background: url(/assets/images/jadoo.png);
-}
-.layer {
-  background-color: rgba(0, 0, 0, 0.911);
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  position: relative;
-}
-
-.work_information {
-  position: absolute;
-  bottom: 30vh;
-  left: 20vw;
-  font-size: larger;
-}
-
-.layer ul {
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  padding-left: 0;
-  font-weight: bold;
-  margin-top: 50px;
-}
-
-*/
-
 .work-section {
   height: 100vh;
   color: white;
@@ -66,24 +8,16 @@
 .container_title {
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
-}
-
-.main_container {
-  border: 0.2px solid rgba(211, 211, 211, 0.363);
-  border-radius: 50px;
-  background: rgb(238, 84, 188);
-  background: linear-gradient(
-    17deg,
-    rgba(238, 84, 188, 0.16010154061624648) 0%,
-    rgba(26, 201, 205, 0.14329481792717091) 96%
-  );
+  padding: 0 90px;
 }
 
 .main_container figure {
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+
+.main_container {
+  filter: drop-shadow;
 }
 
 .work-section ul {
@@ -124,4 +58,15 @@ h5 {
   font-family: "Roboto Condensed";
   text-transform: uppercase;
   font-weight: 500;
+}
+
+.below {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+.website_info {
+  display: flex;
 }
