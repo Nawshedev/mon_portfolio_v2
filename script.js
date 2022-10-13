@@ -2,34 +2,50 @@
 
 // ABOUT SECTION //
 
-
-$("#scrolling_text").typer({
-  strings: [
-    "HTML",
+var typed = new Typed('.element', {
+  strings: ["HTML",
     "CSS",
-    "JavaScript",
-    "jQuery",
-    "SQL",
+      "Bootstrap",
+      "JavaScript",
+      "jQuery",
+      "SQL",
     "PHP",
-    "Wordpress"
-  ]
+      "Symfony",
+    "Wordpress",
+  "fullstack"],
+  typeSpeed: 30,
+  backSpeed: 60,
+ 
 });
 
-$("#scrolling_text").typer({
-  typeSpeed: 60,
-  backspaceSpeed: 20,
-  backspaceDelay: 800,
-  repeatDelay: 1000,
-  repeat: true,
-  autoStart: true,
-  startDelay: 100,
-});
 
-$("#scrolling_text").typer({
+// $("#scrolling_text").typer({
+//   strings: [
+//     "HTML",
+//     "CSS",
+//     "JavaScript",
+//     "jQuery",
+//     "SQL",
+//     "PHP",
+//     "Wordpress"
+//   ]
+// });
+
+// $("#scrolling_text").typer({
+//   typeSpeed: 60,
+//   backspaceSpeed: 20,
+//   backspaceDelay: 800,
+//   repeatDelay: 1000,
+//   repeat: true,
+//   autoStart: true,
+//   startDelay: 100,
+// });
+
+// $("#scrolling_text").typer({
   
-    useCursor:true
+//     useCursor:true
   
-  });
+//   });
   
 
 

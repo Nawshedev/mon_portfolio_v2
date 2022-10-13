@@ -2,9 +2,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 400px;
+  margin: 0;
+  padding: 0 200px;
+
   color: white;
   height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  background-color: #10101ae7;
 }
 
 .right_header {

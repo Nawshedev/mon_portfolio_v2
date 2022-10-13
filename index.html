@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -55,6 +58,12 @@
     <!-- EOF HEADER -->
     <!-- MAIN -->
     <main>
+
+      <img class="ellipse" src="./assets/images/ellipse.png" alt="">
+
+      <!-- <img class="ellipse1" src="./assets/images/ellipse1.png" alt=""> -->
+
+      <img class="ellipse" src="./assets/images/ellipse2.png" alt="">
       <!-- section welcome -->
       <section class="welcome_section">
         <h1>NAWEL GRINE</h1>
@@ -71,13 +80,13 @@
 
       <!-- About section -->
       <section class="about_section">
-        <h6>about</h6>
+        
 
         <article>
           <h1>
-            Développ<span class="flip_e">e</span>use
+            Développ<span class="flip_e">e</span>use <span class="element"></span>
             
-          </h1><h1 id="scrolling_text" ></h1>
+          </h1>
           <p>
             Salut, 👋🏻 <br />
             Je m’appelle <span>Nawel</span> et je suis développeuse web
@@ -95,94 +104,134 @@
 
       <!-- BOF Work Section -->
 
+
+
+
+
       <div class="swiper">
-        <span class="shadow"></span>
+        <!-- <span class="shadow"></span> -->
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
+
+          <!------------------ SLIDE 1 ---------------->
           <div class="swiper-slide">
             <section class="work-section">
-              <h6>work</h6>
-              <div class="middle">
-                <div class="container_title">
-                  <div class="website_info">
-                  <h4>harmonie déco</h4>
-                  <figcaption>
-                    création du site vitrine et du logo pour une décoratrice
-                    d'évènements
-                  </figcaption>
+              
+              
+                  <!-- <h4>harmonie déco</h4>  -->
+                 
+          <div class="work_image">
+                    <img src="./assets/images/HD_mockup.png" alt="" /></div>
+                  <div class="bottom_work">
+                    <h5>wordpress</h5>
+                  <ul>
+                    <li><i class="fa-solid fa-globe"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i class="fa-brands fa-codepen"></i></li>
+                  </ul></div>
+                  <div class="swiper-pagination"></div>
+ 
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+                </section>
+                </div>
+              
+            
+        <!-- --------------- SLIDE 2 -------------------> 
+          <div class="swiper-slide">
+            <section class="work-section">
+            
+             
+                  <!-- <h4>Rose Mousseline</h4> -->
+                 
+               
+          <div class="work_image"><img src="./assets/images/rm_mockup.png" alt="" /></div>
+                    
+
+                    <div class="bottom_work">
+                 <h5>Woocommerce</h5>
+                <ul>
+                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li><i class="fa-brands fa-github"></i></li>
+                  <li><i class="fa-brands fa-codepen"></i></li>
+                </ul></div>
+
+                <div class="swiper-pagination"></div>
+ 
+        <!-- navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+            
+            </section>
+          </div>
+
+            <!-- --------------- SLIDE 3 -------------------> 
+          <div class="swiper-slide">
+            <section class="work-section">
+          
+              
+                
+                  <!-- <h4>yummy nouilles</h4> -->
                   
-                </div>
-                <div class="main_container">
-                  <figure>
-                    <img src="./assets/images/HD_mockup.png" alt="" />
-                  </figure>
-                </div>
-                <div class="below">
-                  <h5>wordpress</h5>
+              
+                <div class="work_image"><img src="./assets/images/jadoo_mockup.png" alt="" /></div>
+                 
+                    
+                    
+                  <div class="bottom_work"><h5>html/css/figma</h5>
+                
+                <ul>
+                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li><i class="fa-brands fa-github"></i></li>
+                  <li><i class="fa-brands fa-codepen"></i></li>
+                </ul></div>
+                <div class="swiper-pagination"></div>
+ 
+                <!-- navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </section>
+          </div>
+
+            <!-- --------------- SLIDE 4 -------------------> 
+
+          <div class="swiper-slide">
+            <section class="work-section">
+             
+                  <!-- <h4>harmonie déco</h4> -->
+                  
+                  <div class="work_image"><img src="./assets/images/HD_mockup.png" alt="" /></div>
+               
+                    
+<div class="bottom_work">
+                <h5>wordpress</h5>
                   <ul>
                     <li><i class="fa-solid fa-globe"></i></li>
                     <li><i class="fa-brands fa-github"></i></li>
                     <li><i class="fa-brands fa-codepen"></i></li>
                   </ul>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div class="swiper-slide">
-            <section class="work-section">
-              <h6>work</h6>
-              <div class="middle">
-                <div class="container_title">
-                  <h4>Rose Mousseline</h4>
-                  <h5>Woocommerce</h5>
-                </div>
-                <div class="main_container">
-                  <figure>
-                    <img src="./assets/images/rm_mockup.png" alt="" />
-                    <figcaption>création e-commerce</figcaption>
-                  </figure>
-                </div>
-                <ul>
-                  <li><i class="fa-solid fa-globe"></i></li>
-                  <li><i class="fa-brands fa-github"></i></li>
-                  <li><i class="fa-brands fa-codepen"></i></li>
-                </ul>
-              </div>
-            </section>
-          </div>
-          <div class="swiper-slide">
-            <section class="work-section">
-              <h6>work</h6>
-              <div class="middle">
-                <div class="container_title">
-                  <h4>yummy nouilles</h4>
-                  <h5>html/css/figma</h5>
-                </div>
-                <div class="main_container">
-                  <figure>
-                    <img src="./assets/images/jadoo_mockup.png" alt="" />
-                    <figcaption>
-                      site vitrine pour un restaurant japonais
-                    </figcaption>
-                  </figure>
-                </div>
-                <ul>
-                  <li><i class="fa-solid fa-globe"></i></li>
-                  <li><i class="fa-brands fa-github"></i></li>
-                  <li><i class="fa-brands fa-codepen"></i></li>
-                </ul>
-              </div>
-            </section>
-          </div>
-          ...
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
+               </div>
+              
+                  <div class="swiper-pagination"></div>
+ 
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+                
+           
+            </section> </div>
+            <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+ 
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        
+        
+          ...
+        
+        
       </div>
 
       <!-- EOF work section -->

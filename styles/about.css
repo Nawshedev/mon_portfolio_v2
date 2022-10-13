@@ -1,6 +1,6 @@
 .about_section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   color: white;
@@ -8,10 +8,9 @@
 }
 
 .about_section article h1 {
-  position: absolute;
-  top: 95vh;
-  right: 300px;
-  font-size: 4rem;
+  font-size: 3rem;
+  position: relative;
+  bottom: 200px;
 }
 
 h6 {
@@ -22,14 +21,14 @@ h6 {
   font-weight: 500;
 }
 
-.about_section p span {
+.about_section h1 .flip_e {
   font-weight: bold;
-  /* background: -webkit-linear-gradient(
+  background: -webkit-linear-gradient(
     rgba(238, 84, 188, 1),
     rgba(26, 201, 205, 1)
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
 }
 
 article .cta {

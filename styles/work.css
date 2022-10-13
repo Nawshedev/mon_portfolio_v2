@@ -1,19 +1,13 @@
 .work-section {
-  height: 100vh;
+  height: 90vh;
   color: white;
-  margin: 0 400px;
-  position: relative;
+
+  width: 95vw;
 }
 
-.container_title {
+.work_image {
   display: flex;
-  justify-content: space-between;
-  padding: 0 90px;
-}
-
-.main_container figure {
-  display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .main_container {
@@ -30,18 +24,13 @@
   color: white;
 }
 
-.work-section h6 {
-  position: absolute;
-  top: 310px;
-}
-
 .swiper-button-next {
   color: white;
-  right: 50px;
+  right: 150px;
 }
 
 .swiper-button-prev {
-  left: 50px;
+  left: 150px;
   color: white;
 }
 
@@ -69,4 +58,18 @@ h5 {
 
 .website_info {
   display: flex;
+}
+
+.bottom_work {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.work-section h4 {
+  text-align: center;
+}
+
+.work-section img {
+  text-align: center;
 }
