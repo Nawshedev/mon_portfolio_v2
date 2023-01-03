@@ -4,13 +4,15 @@
   align-items: center;
   height: 100vh;
   color: white;
-  margin: 0 400px;
+}
+
+.about_section span {
+  font-weight: bold;
 }
 
 .about_section article h1 {
   font-size: 3rem;
   position: relative;
-  bottom: 200px;
 }
 
 h6 {
@@ -23,15 +25,59 @@ h6 {
 
 .about_section h1 .flip_e {
   font-weight: bold;
-  background: -webkit-linear-gradient(
-    rgba(238, 84, 188, 1),
-    rgba(26, 201, 205, 1)
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    -98deg,
+
+    #b35cff,
+    #71d2ff
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: transparent;
+  background-size: 300% 300%;
+  animation: gradient 2s ease infinite;
+  border: none;
 }
 
 article .cta {
   top: 200px;
   position: relative;
+}
+
+article .cta::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .about_section {
+    height: 60vh;
+    margin: 32px 0;
+  }
+  article .cta {
+    top: 16px;
+    position: relative;
+  }
+
+  @media screen and (max-width: 320px) {
+    .work_image img {
+      width: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about_section {
+    height: max-content;
+  }
 }

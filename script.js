@@ -5,47 +5,21 @@
 var typed = new Typed('.element', {
   strings: ["HTML",
     "CSS",
-      "Bootstrap",
+    "Bootstrap",
+      "Tailwind",
       "JavaScript",
       "jQuery",
       "SQL",
     "PHP",
-      "Symfony",
     "Wordpress",
-  "fullstack"],
+    "fullstack",
+  "web et web mobile"],
   typeSpeed: 30,
   backSpeed: 60,
  
 });
 
 
-// $("#scrolling_text").typer({
-//   strings: [
-//     "HTML",
-//     "CSS",
-//     "JavaScript",
-//     "jQuery",
-//     "SQL",
-//     "PHP",
-//     "Wordpress"
-//   ]
-// });
-
-// $("#scrolling_text").typer({
-//   typeSpeed: 60,
-//   backspaceSpeed: 20,
-//   backspaceDelay: 800,
-//   repeatDelay: 1000,
-//   repeat: true,
-//   autoStart: true,
-//   startDelay: 100,
-// });
-
-// $("#scrolling_text").typer({
-  
-//     useCursor:true
-  
-//   });
   
 
 

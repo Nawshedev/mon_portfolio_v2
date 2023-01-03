@@ -36,37 +36,43 @@
     <title>Nawel Grine</title>
   </head>
 
-  <!-- BODY -->
+  <!-- EOF HEAD -->
+
+
+  <!-- BOF BODY -->
   <body>
-    <!-- HEADER -->
+    <section class="main-container">
+    <!-- BOF HEADER -->
     <header>
-      <h2 class="left_header">naw<span class="flip_e">e</span>l</h2>
+      <h2 class="left_header"><a href="home">naw<span class="flip_e">e</span>l</a></h2>
       <nav class="right_header">
         <ul class="nav_menu">
-          <li>about</li>
-          <li>work</li>
-          <li>contact</li>
+          <li> <a href="#about">about</a> </li>
+          <li>  <a href="#work">work</a></li>
+          <li> <a href="#contact">contact</li></a>
         </ul>
         <ul class="nav_social">
           <li><i class="fa-brands fa-github"></i></li>
           <li>
             <i class="fa-brands fa-codepen"></i>
           </li>
+          <li><i class="fa-brands fa-linkedin-in"></i></li>
         </ul>
       </nav>
     </header>
     <!-- EOF HEADER -->
-    <!-- MAIN -->
+
+    <!-- BOF MAIN -->
     <main>
 
+      <!-- BOF Ellipses de décoration -->
       <img class="ellipse" src="./assets/images/ellipse.png" alt="">
-
-      <!-- <img class="ellipse1" src="./assets/images/ellipse1.png" alt=""> -->
-
       <img class="ellipse" src="./assets/images/ellipse2.png" alt="">
-      <!-- section welcome -->
+       <!-- EOF Ellipses de décoration -->
+
+      <!-- BOF section welcome -->
       <section class="welcome_section">
-        <h1>NAWEL GRINE</h1>
+        <h1>Nawel GRINE</h1>
         <h3>
           <span class="gradient">Développeuse</span> web et w<span
             class="flip_e"
@@ -78,23 +84,23 @@
 
       <!-- EOF section welcome -->
 
-      <!-- About section -->
-      <section class="about_section">
-        
-
+      <!-- BOF About section -->
+      <section id="about" class="about_section">
         <article>
           <h1>
             Développ<span class="flip_e">e</span>use <span class="element"></span>
             
           </h1>
           <p>
-            Salut, 👋🏻 <br />
-            Je m’appelle <span>Nawel</span> et je suis développeuse web
-            fullstack en <span>formation</span>. Dans le cadre de ma formation
-            qualifiante intitulée “développeur web et web mobile”(niveau 3), je
-            dois effectuer un <span>stage</span> , non rémunéré, en entreprise.
-            D’une durée de 245 heures, il aura lieu du
-            <span>16/01/2023 au 03/03/2023</span>.
+            
+            Salut, 👋🏻 <br /><br />
+
+            Je m’appelle <span>Nawel</span> et je prépare un titre professionnel de développeuse web et web mobile (niveau Bac +2).  <br>
+            <br>
+            Bonne nouvelle, je suis <span>disponible</span> dès le 16  <span>janvier </span>gratuitement!<br><br>
+            
+            On appelle cela un <span>stage</span> mais on pourrait transformer cela en une période d'essai gratuite. Qu'en dites-vous?
+
           </p>
           <a class="cta">télécharger mon cv</a>
         </article>
@@ -104,13 +110,8 @@
 
       <!-- BOF Work Section -->
 
-
-
-
-
-      <div class="swiper">
-        <!-- <span class="shadow"></span> -->
-        <!-- Additional required wrapper -->
+      <div id="work"  class="swiper">
+    
         <div class="swiper-wrapper">
           <!-- Slides -->
 
@@ -183,7 +184,7 @@
                   <div class="bottom_work"><h5>html/css/figma</h5>
                 
                 <ul>
-                  <li><i class="fa-solid fa-globe"></i></li>
+                  <li> <a href="https://www.figma.com/file/Q9FduINB6CEryeo9FFnhWR/Maquette-Yummy-Nouilles?node-id=12%3A136&t=0kBVZgv9g5cpSYOF-1"> <i class="fa-solid fa-globe"></i></a></li>
                   <li><i class="fa-brands fa-github"></i></li>
                   <li><i class="fa-brands fa-codepen"></i></li>
                 </ul></div>
@@ -205,7 +206,7 @@
                   <div class="work_image"><img src="./assets/images/HD_mockup.png" alt="" /></div>
                
                     
-<div class="bottom_work">
+        <div class="bottom_work">
                 <h5>wordpress</h5>
                   <ul>
                     <li><i class="fa-solid fa-globe"></i></li>
@@ -238,7 +239,7 @@
 
       <!-- BOF Contact Section -->
 
-      <section class="contact_section">
+      <section id="contact" class="contact_section">
         <article>
           <h4>
             ça vous a plu?<br />
@@ -246,14 +247,15 @@
           </h4>
         </article>
 
+        <!-- BOF CONTACT FORM -->
         <form action="" method="get">
-          <label for="name">Nom</label>
+          <label for="name">nom</label>
           <input type="text" name="name" id="contact_name" />
 
-          <label for="email">Email</label>
+          <label for="email">e-mail</label>
           <input type="email" name="" id="" required />
 
-          <label for="message">Message</label>
+          <label for="message">message</label>
           <textarea
             name="message"
             id="contact_message"
@@ -261,17 +263,18 @@
             rows="10"
           ></textarea>
 
-          <input type="submit" value="Envoyer" class="send_btn" />
+          <input type="submit" value="envoyer" class="send_btn" />
         </form>
-      </section>
 
-      <!-- sliding section  -->
-      <!-- Slider main container -->
+        <!-- EOF CONTACT FORM -->
+
+      <!-- EOF CONTACT SECRION -->
+
+      </section>
     </main>
     <!-- EOF MAIN -->
 
-    <!-- Footer -->
-
+    <!--BOF  Footer -->
     <footer>
       <ul>
         <li>about</li>
@@ -284,13 +287,18 @@
         <li>
           <i><i class="fa-brands fa-codepen"></i></i>
         </li>
+        <li><i class="fa-brands fa-linkedin-in"></i></li>
       </ul>
     </footer>
+    <!-- EOF FOOTER -->
+
+  </section>
+
+  <!-- Scripts -->
+
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script src="typer.min.js"></script>
     <script src="script.js"></script>
- 
-
 
   </body>
 </html>

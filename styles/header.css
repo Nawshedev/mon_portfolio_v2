@@ -2,9 +2,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: 0 200px;
-
   color: white;
   height: 10vh;
   position: sticky;
@@ -21,6 +18,7 @@ header {
 .nav_social,
 .nav_menu {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
@@ -35,4 +33,26 @@ header {
 h2 {
   font-size: 2.3em;
   padding-left: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  header {
+    display: none;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .right_header {
+    gap: 4px;
+    flex-direction: row-reverse;
+  }
+
+  .nav_menu {
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  .nav_social {
+    display: none;
+  }
 }

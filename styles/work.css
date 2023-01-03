@@ -1,8 +1,6 @@
 .work-section {
-  height: 90vh;
+  height: 100vh;
   color: white;
-
-  width: 95vw;
 }
 
 .work_image {
@@ -72,4 +70,43 @@ h5 {
 
 .work-section img {
   text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .work-section {
+    height: fit-content;
+    margin: 32px 0;
+  }
+  .work_image {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .work_image img {
+    width: 500px;
+  }
+
+  .swiper-button-next {
+    display: none;
+  }
+
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper-pagination {
+    position: relative;
+  }
+
+  .bottom_work {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .work_image img {
+    width: 400px;
+  }
 }
